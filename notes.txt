@@ -6,9 +6,10 @@ If we can show Buttons, Text, Audio, we could show that an Activity could be mad
 
 An easy target could be, play a video.  Show instructional text on the screen.
 
-Ability to Branch on Interaction
+Ability to Branch to a different Scene on User Interaction
 
-"Data layer" (the data feature) can stay out of this at this point.
-
+"Data layer" (the data feature) can stay out at this point.
 
 Graphics will need to be positioned.
+
+Ability to move objects down to Scene Manager as a Track.
