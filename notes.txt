@@ -1,0 +1,14 @@
+What could we do as our MVP?
+
+Let's use Julie to look at it first
+
+If we can show Buttons, Text, Audio, we could show that an Activity could be made.
+
+An easy target could be, play a video.  Show instructional text on the screen.
+
+Ability to Branch on Interaction
+
+"Data layer" (the data feature) can stay out of this at this point.
+
+
+Graphics will need to be positioned.

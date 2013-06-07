@@ -1,8 +1,106 @@
 <html>
   <head>
     <title>Serenity</title>
+    <style>
+      .container {
+        width: 900px;
+        margin: 0 auto;
+      }
+
+      #scene_manager {
+        background-color: #9C9;
+        width: 900px;
+        height: 200px;
+      }
+
+      #properties {
+        float: left;
+        background-color: #96C;
+        width: 300px;
+        height: 150px;
+      }
+
+      #scene_preview {
+        float: right;
+        background-color: #6C6;
+        width: 550px;
+        height: 300px;
+      }
+
+      #object_selector {
+        float: left;
+        background-color: #3C3;
+        width: 300px;
+        height: 150px;
+      }
+
+      .track {
+        float: left;
+        background-color: #C33;
+        width: 500px;
+        height: 40px;
+        margin: 10px;
+
+      }
+
+      .track-branch {
+        float: right;
+        margin-right: 200px;
+        background-color: #666;
+        width: 50px;
+        height: 200px;
+      }
+
+      .clear {
+        clear: both;
+      }
+    </style>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
   </head>
   <body>
-    <h1>Serenity</h1>
+    <div class="container">
+      <h1>Serenity</h1>
+
+      <div id="object_selector">
+        <ul>
+          <li>Graphics</li>
+          <li>Audio</li>
+          <li>Video</li>
+          <li>Button</li>
+        </ul>
+      </div>
+
+      <div id="scene_preview"> </div>
+
+      <div id="properties">
+        properties
+      </div>
+
+
+      <div class="clear"></div>
+
+      <h3>Scene Manager</h3>
+      <div id="scene_manager">
+        <div class="track">
+          track 1
+        </div>
+        <div class="track">
+          track 2
+        </div>
+
+        <div class="track-branch">
+        </div>
+      </div>
+    </div>
+
+    <h3>Glossary</h3>
+    <ul>
+      <li>Branch: Given End User input, it directs you to another Scene.</li>
+      <li>Playhead: Movable cursor that updates Scene Preview window with specified position in the Scene.</li>
+      <li>Scene: Collection of tracks.</li>
+      <li>Scene Preview: Approximation of what the scene should look like at any given point. The Preview will be interactive.</li>
+      <li>Track: Represents the lifetime and transitions and branching of an object.</li>
+      <li>User Interaction: Input from the End User.</li>
   </body>
 </html>
